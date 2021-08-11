@@ -1,3 +1,10 @@
+#python3 
+#This tool is Developed By Mohammad Zim
+##################################################
+
+#Copyright : Mohammad Zim
+
+###################################################
 import socket
 import os
 import random
