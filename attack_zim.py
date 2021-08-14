@@ -11,7 +11,7 @@ import random
 import time 
 import colorama 
 colorama.init()
-form colorama import *
+from colorama import *
 
 
 #Banner
