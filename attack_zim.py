@@ -3,6 +3,8 @@
 ##################################################
 
 #Copyright : Mohammad Zim
+#Copright Strike From :- Mohammad Zim
+#
 
 ###################################################
 import socket
